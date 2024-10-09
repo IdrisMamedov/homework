@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="isim">Full Name:</label>
+            <input type="text" name="isim" id="isim" minlength="2" required>
+            <br>
+            <label for="mail">Email Address:</label>
+            <input type="email" name="mail" id="mail" minlength="3" required>
+            <br>
+            <label for="nomer">Phone Number:</label>
+            <input type="text" name="nomer" id="nomer" min="2" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Event Details</legend>
+            <label for="name">Event Name</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="date">Event Date</label>
+            <input type="date" name="date" id="date" required>
+            <br>
+            <label for="lokasiya">Event Location</label>
+            <input type="text" name="lokasiya" id="lokasiya" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ticket Selection</legend>
+            <p>Choose Ticket Type:</p>
+            <input name="type" id="ticket" type="radio" >
+            <label for="ticket">Standart</label>
+            <br>
+            <input name="type" id="ticket" type="radio" >
+            <label for=""><b>VIP</b></label>
+            <br>
+            <label for="quantity">Quantity:</label>
+            <input type="text" name="quantity" id="quantity">
+        </fieldset>
+
+        <fieldset>
+            <legend>Dietary Preferences</legend>
+            <input type="checkbox" name="diet" id="vg">
+            <label for="vgt">Vegetarian</label>
+            <br>
+            <input type="checkbox" name="diet" id="vgn">
+            <label for="vgn">Vegan</label>
+            <br>
+            <input type="checkbox" name="diet" id="gf">
+            <label for="gf">Gluten-Free</label>
+        </fieldset>
+        <label for="rəy bölməsi">Additional Comments</label> 
+        <br>
+        <textarea rows="5" cols="60" name="rəy bölməsi" id="rəy bölməsi" ></textarea>
+        <br>
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">I agree to the terms and conditions</label>
+        <button type="reset">Reset</button>
+        <button type="submit">Register</button>
+
+
+
+    </form>
+</body>
+</html>

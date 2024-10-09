@@ -13,13 +13,13 @@
         <fieldset>
             <legend>Personal Information</legend>
             <label for="ad">First Name:</label>
-            <input type="text" name="ad" id="ad" minlength="3">
+            <input type="text" name="ad" id="ad" minlength="3" required>
             <br>
             <label for="soyad">Last Name:</label>
-            <input type="text" name="soyad" id="soyad" minlength="3">
+            <input type="text" name="soyad" id="soyad" minlength="3" required>
             <br>
             <label for="yaş">Age:</label>
-            <input type="number" name="yaş" id="yaş" maxlength="100" minlength="0">
+            <input type="number" name="yaş" id="yaş" maxlength="100" minlength="0" required>
             <br>
             <label for="cins">Gender:</label>
             <select name="cins" id="cins">
@@ -31,10 +31,10 @@
         <fieldset>
             <legend>Contact Information</legend>
             <label for="mail">Email Address:</label>
-            <input type="email" name="mail" id="mail">
+            <input type="email" name="mail" id="mail" required>
             <br>
             <label for="şifrə">Password:</label>
-            <input type="password" name="şifrə" id="şifrə">
+            <input type="password" name="şifrə" id="şifrə" required>
             <br>
             <label for="ölkə">Country:</label>
             <select name="ölkə" id="ölkə">
@@ -61,21 +61,21 @@
         <fieldset>
             <legend>Address Information</legend>
             <label for="ünvan">Address:</label>
-            <input type="text" name="ünvan" id="ünvan">
+            <input type="text" name="ünvan" id="ünvan" required>
             <br>
             <label for="şəhər">City:</label>
-            <input type="text" name="şəhər" id="şəhər">
+            <input type="text" name="şəhər" id="şəhər" required>
             <br>
             <label for="post kodu">Postal Code:</label>
             <input type="text" name="post kodu" id="post kodu">
             <br>
             <label for="nömrə">Phone Number:</label>
-            <input type="text" name="nömrə" id="nömrə">
+            <input type="text" name="nömrə" id="nömrə" required>
         </fieldset>
         <label for="koment">Additional Comments</label>
         <textarea name="koment" id="koment"></textarea>
         <br>
-        <input type="checkbox" name="subscribe" id="subscribe">
+        <input type="checkbox" name="subscribe" id="subscribe" required>
         <label for="subscribe">Subscribe to our newsletter</label>
         <button type="submit">Register</button>
     </form>
