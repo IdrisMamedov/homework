@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="ad">First Name:</label>
+            <input type="text" name="ad" id="ad" minlength="3">
+            <br>
+            <label for="soyad">Last Name:</label>
+            <input type="text" name="soyad" id="soyad" minlength="3">
+            <br>
+            <label for="yaş">Age:</label>
+            <input type="number" name="yaş" id="yaş" maxlength="100" minlength="0">
+            <br>
+            <label for="cins">Gender:</label>
+            <select name="cins" id="cins">
+                <option value="kisi">Male</option>
+                <option value="qadin">Female</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="mail">Email Address:</label>
+            <input type="email" name="mail" id="mail">
+            <br>
+            <label for="şifrə">Password:</label>
+            <input type="password" name="şifrə" id="şifrə">
+            <br>
+            <label for="ölkə">Country:</label>
+            <select name="ölkə" id="ölkə">
+                <optgroup label="Europe">
+                    <option value="Fr">France</option>
+                    <option value="Gr">Germany</option>
+                    <option value="İt">İtaly</option>
+                </optgroup>
+
+                <optgroup label="Asia">
+                    <option value="Ch">China</option>
+                    <option value="İn">İndia</option>
+                    <option value="Jp">Japan</option>
+                </optgroup>
+
+                <optgroup label="Other">
+                    <option value="USA">Unites States</option>
+                    <option value="Cn">Canada</option>
+                    <option value="UK">United Kingdom</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address Information</legend>
+            <label for="ünvan">Address:</label>
+            <input type="text" name="ünvan" id="ünvan">
+            <br>
+            <label for="şəhər">City:</label>
+            <input type="text" name="şəhər" id="şəhər">
+            <br>
+            <label for="post kodu">Postal Code:</label>
+            <input type="text" name="post kodu" id="post kodu">
+            <br>
+            <label for="nömrə">Phone Number:</label>
+            <input type="text" name="nömrə" id="nömrə">
+        </fieldset>
+        <label for="koment">Additional Comments</label>
+        <textarea name="koment" id="koment"></textarea>
+        <br>
+        <input type="checkbox" name="subscribe" id="subscribe">
+        <label for="subscribe">Subscribe to our newsletter</label>
+        <button type="submit">Register</button>
+    </form>
+</body>
+
+</html>
