@@ -1,0 +1,30 @@
+#boxx {
+    width: 175px;
+    height: 175px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4O6gGpVdzir17mvZe9vBipJoPuLtuiMmIaw&s");
+    background-repeat: no-repeat;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+h1{
+    text-align: center;
+}
+h1::after{
+    content: "";
+    height: 2px;
+    width: 900px;
+    background-color: blue;
+    display: block;
+    margin: auto;
+}
+
+#h3color {
+    color: rgb(198, 138, 47);
+}
+
+#about {
+    width: 60%;
+    margin: auto;
+}
