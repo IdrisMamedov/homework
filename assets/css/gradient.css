@@ -1,0 +1,19 @@
+#box {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    background: rgb(255,150,2);
+    background: linear-gradient(90deg, rgba(255,150,2,0.768032212885154) 0%, rgba(185,6,76,0.8016456582633054) 17%, rgba(213,4,187,0.7988445378151261) 36%, rgba(129,5,181,0.7820378151260504) 52%, rgba(120,39,149,0.7848389355742297) 70%, rgba(53,129,182,0.768032212885154) 86%, rgba(0,212,255,0.7624299719887955) 100%), url("https://iso.500px.com/wp-content/uploads/2016/02/stock-photo-114337435-1500x1000.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#box p{
+    color: white;
+    margin: auto;
+    font-size: 70px;
+    padding: 150px 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

@@ -1,0 +1,9 @@
+#ticket {
+    width: 350px;
+    height: 550px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 7%;
+    background: rgb(20, 104, 178);
+    background: linear-gradient(to bottom, #0000ff #ffffff);
+}

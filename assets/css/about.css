@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Varsayılan font */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page1 {
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#border {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 300px;
+}
+
+#border img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+#border h2{
+    margin-top: 7px;
+}
