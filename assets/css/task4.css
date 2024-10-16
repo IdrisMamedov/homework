@@ -1,0 +1,24 @@
+#scrol {
+    width: 20%; 
+    height: 180px; 
+    border: 2px solid black; 
+    overflow-y: auto; 
+    /* display: block;  */
+}
+
+.Bss {
+    width: 100%; 
+    height: 20px; 
+    background-color: #5e5e5e; 
+    color: white; 
+    text-align: center;
+    position: sticky; 
+    top: 0%; 
+}
+
+.start {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+

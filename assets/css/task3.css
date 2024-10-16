@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat";
+}
+
+
+#bigbox{
+    width: 900px;
+    height: 700px;
+    position: relative;
+    margin: auto;
+    background-color: rgb(174, 174, 174);
+}
+
+
+#photo {
+    background-color: rgb(58, 58, 58);
+    width: 825px;
+    height: 500px;
+    background-image:url("https://cdn.suitdirect.co.uk/upload/blog/13850-should-you-wear-a-suit-to-a-jo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0%; 
+    left: 50%; 
+    transform: translate(-50%);
+}
+
+.text {
+    position: absolute;
+    background-color: white;
+    left: 0%;
+    bottom: 8%;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.text1{
+    color: white;
+    position: absolute;
+    top: 73%;
+    left: 4%;
+
+}
+
+.text2{
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 4%;
+
+}
+
+.text3{
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+}
+
+
+
