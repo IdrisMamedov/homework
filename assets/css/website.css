@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+* {
+    font-family: "Afacad Flux";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 200vh;
+    width: 100%;
+    padding-top: 12vh; 
+}
+
+#head {
+    width: 100%;
+    height: 12vh;
+    border-top: 1px solid rgba(75, 75, 75, 0.2);
+    border-bottom: 1px solid rgba(75, 75, 75, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+    padding: 0 5%;
+}
+
+#div1 p {
+    font-size: large;
+}
+
+#div1, #div2, #div3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1 {
+    justify-content: flex-start;
+}
+
+#div2 {
+    justify-content: center;
+}
+
+#div3 {
+    justify-content: flex-end;
+}
+
+#div3 a {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#div3 .nomer {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+#div3 .icon {
+    border: 4px solid #d43131;
+    padding: 6%;
+    background-color: #d43131;
+}
+
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 20px; 
+    position: fixed; 
+    top: 12vh; 
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    color: #d43131;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    list-style: none;
+    padding: 10px 0;
+    display: none;
+    min-width: 150px;
+    z-index: 999;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 5px 20px;
+}
+
+.dropdown-menu li a {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+    color: #d43131;
+}
+
+#section1{
+    background-image: url("https://zozofit.com/cdn/shop/articles/BlogPost_HowToStartGoingToGymAlone_1920x1080_fe13ecca-dda7-4329-b313-ec8f4bdebcd2.png?v=1693086602");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    /* align-items: center;  
+    text-align: center; */
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#section1 .p1{
+    position: absolute;
+    font-size: 70px;
+    color: rgb(76, 76, 76);
+    top: 40%;
+}
+
+#section1 .p2{
+    position: absolute;
+    color:rgb(76, 76, 76);
+    top: 42%;
+    left: 48%;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#card{
+    width: 32%;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 50px 30px rgba(150, 23, 23, 0.17);
+}
+
+#bcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.card1 {
+    background-image: url("https://preview.colorlib.com/theme/gym/img/o1.png.webp");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card2 {
+    background-image: url("https://preview.colorlib.com/theme/gym/img/o2.png.webp");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.card3 {
+    background-image: url("https://preview.colorlib.com/theme/gym/img/o3.png.webp");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#h2{
+    text-align: center;
+    margin-top: 60%;
+}
+
+#p1 {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+#divvv1 {
+    width: 100%;
+    height: 50vh;
+    background-color: #d43131;
+    margin-top: 150px;
+    position: relative;
+}
+
+#divvv2{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    
+
+}
+
+#divvv3{
+    position: absolute;
+    left: 41%;
+    top: 60%;
+    
+
+}
+
+
+#divvv4{
+    position: absolute;
+    right: 41%;
+    top: 60%;
+    
+}
+
+
+#divvv5{
+    position: absolute;
+    left: 49%;
+    top: 70%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
