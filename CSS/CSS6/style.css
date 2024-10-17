@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins";
+}
+
+.navbar__logo{
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 16px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.select {
+    font-size: 16px;
+    border: none; 
+    outline: none; 
+}
+
+.navbar__links {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+
+}
+
+.main_shop {
+    display: flex;
+    text-align: center;
+    padding: 80px;
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 40px;
+}
+
+.main_shop_headtext{
+    color: white;
+}
+
+.main_shop_bodytext{
+    color: white;
+}
+
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 20px 0;
+    height: 350px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #707070, #ffffff);
+}
+
+.row .vahid{
+    font-size: 30px;
+    padding-top:20%;
+}
+
+.row .ad{
+    font-size: 15px;
+}
+
+.buton {
+    color: black;
+    padding: 10px;
+}
+
+.buton:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 900ms
+
+}
+
+.loginbox{
+    border: 2px solid black;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.loginbox img{
+    position: absolute;
+    right: 5%;
+    bottom: 7%;
+
+}
+
+.loginbox .head {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.loginbox input {
+    margin-top: 25%;
+    margin-left: 13%;
+    
+    
+   
+}
+
+
+footer{
+    margin-top: 40px;
+    color: white;
+    background-color: #343434;
+    height: 80px;
+    position: relative;
+}
+
+footer p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+
