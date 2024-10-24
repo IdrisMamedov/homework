@@ -1,0 +1,15 @@
+a.relative::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: red;
+  transition: width 0.3s;
+}
+
+a.relative:hover::before {
+  width: 100%;
+}
+
